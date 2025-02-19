@@ -1,0 +1,22 @@
+{
+  "name": "atividade_qa-cypress-ecommerce",
+  "version": "1.0.0",
+  "description": "Automação Cypress para fluxos de e-commerce",
+  "main": "count Creation (Page Object Pattern) ",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ieozin/qa-cypress-ecommerce.git"
+  },
+  "author": "Leonardo Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ieozin/qa-cypress-ecommerce/issues"
+  },
+  "homepage": "https://github.com/Ieozin/qa-cypress-ecommerce#readme",
+  "dependencies": {
+    "cypress": "^14.0.3"
+  }
+}
