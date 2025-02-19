@@ -28,5 +28,6 @@ describe("Fluxo de Criação de Conta", () => {
       senha1: senha,
     });
     signupPage.criarConta();
+    cy.get('[data-testid="CustomerName"]').should('contain', nome);
   });
 });

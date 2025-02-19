@@ -16,6 +16,10 @@ class SignupPage {
   criarConta() {
     cy.get('[data-testid="create"]').click();
   }
+
+  confirmarConta(menu) {
+    return cy.get(`[href="/Tab/${menu}"]`).click();
+  }  
 }
 
 export default SignupPage;
