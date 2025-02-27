@@ -3,6 +3,8 @@ describe("Fluxo de Checkout", () => {
     cy.setCookie("ebacStoreVersion", "v2", {
       domain: "lojaebac.ebaconline.art.br",
     });
+    cy.visit('/')
+    cy.criarContaDinamica();
   });
 
   it("Deve interceptar e validar a adição de um item no carrinho", () => {

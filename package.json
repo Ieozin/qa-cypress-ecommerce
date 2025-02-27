@@ -4,7 +4,7 @@
   "description": "Automação Cypress para fluxos de e-commerce",
   "main": "count Creation (Page Object Pattern) ",
   "scripts": {
-    "test": "npx cypress run"
+    "test": "npx cypress run --reporter mochawesome"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "cypress": "^14.0.3"
   },
   "devDependencies": {
-    "@faker-js/faker": "^9.5.0"
+    "@faker-js/faker": "^9.5.0",
+    "mochawesome": "^7.1.3"
   }
 }
